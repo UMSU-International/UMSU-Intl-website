@@ -1,10 +1,13 @@
-import "../styles/globals.css";
 import { ChakraProvider, CSSReset, extendTheme } from "@chakra-ui/react";
+import "@fontsource/poppins";
+import "@fontsource/poppins/800.css";
+import "@fontsource/montserrat";
 
 const theme = extendTheme({
   colors: {
     primary: "#68CCF2",
     secondary: "#FFFFFF",
+    buttonRight: "#A8E1F6",
   },
   fonts: {
     heading: "Poppins",
