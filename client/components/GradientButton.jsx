@@ -49,18 +49,11 @@ import React from "react";
 import { Button } from "@chakra-ui/react";
 import styled from "styled-components";
 
-const StyledButton = styled.button`
-  color: black;
-  z-index: 5;
-  border-radius: 999px;
-  background-image: ;
-`;
-
 const GradientButton = ({ children, ...props }) => {
   return (
     <Button
       color="black"
-      zIndex="5"
+      zIndex="1000"
       borderRadius="999px"
       bgGradient="linear(to-r, white, primary)"
       fontSize="1.5rem"

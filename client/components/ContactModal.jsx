@@ -77,7 +77,7 @@ const ContactModal = ({ isOpen, onClose }) => {
           <GradientButton
             marginTop="0"
             bgColor="primary"
-            color="secondary"
+            color="black"
             _hover={{}}
           >
             SUBMIT

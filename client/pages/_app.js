@@ -8,6 +8,7 @@ const theme = extendTheme({
     primary: "#68CCF2",
     secondary: "#FFFFFF",
     buttonRight: "#A8E1F6",
+    grey: "#707070",
   },
   fonts: {
     heading: "Poppins",
